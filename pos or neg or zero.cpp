@@ -1,7 +1,8 @@
-# include<iostream.h>
-#include<conio.h>
+# include<iostream>
+using namespace std;
+int main()
 int a=5;
-{
+{{
 if(a>0)
 cout<<"this is a positive number";
 }
@@ -25,4 +26,5 @@ else
 {
 cout<<"not a zero";
 }
-getch();
+return 0;
+}
