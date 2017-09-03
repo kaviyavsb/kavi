@@ -1,6 +1,8 @@
-# include<iostream.h>
-#include<conio.h>
-int a,b,c;
+# include<iostream>
+using namespace std;
+int main()
+{
+ int a,b,c;
 {
 if((a>b)&&(a>c))
 {
@@ -14,4 +16,6 @@ else
 {
 cout<<"cis greater";
 }
-getch();
+return 0;
+}
+}
