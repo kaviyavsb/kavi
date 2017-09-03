@@ -12,3 +12,5 @@ b/=10;
 }
 cout<<count;
 }
+return 0;
+}
