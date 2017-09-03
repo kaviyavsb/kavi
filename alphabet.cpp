@@ -1,5 +1,7 @@
-# include<iostream.h>
-#include<conio.h>
+# include<iostream>
+using namespace std;
+int main()
+{
 char u[5]=b;
 if((u > a)||(u <z))
 {
@@ -9,4 +11,5 @@ else
 {
 cout<<"not an alphabet";
 }
-getch();
+return 0;
+}
